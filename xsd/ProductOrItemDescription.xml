@@ -1,0 +1,144 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.spscommerce.com/RSX"
+    xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+    <xs:element name="ProductOrItemDescription">
+        <xs:complexType>
+            <xs:sequence>
+				<xs:element name="ProductSizeCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductSizeDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductColorCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductColorDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductMaterialCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductMaterialDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductProcessCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductProcessDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="Class" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="SellerDateCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ConsumerPackageCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductID" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PartNumberQual" type="xs:string" minOccurs="0">
+							</xs:element>
+							<xs:element name="PartNumber" type="xs:string" minOccurs="0">
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="NRFStandardColorAndSize" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NRFColorCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="ColorCategoryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="ColorPrimaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="NRFSizeCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeCategoryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizePrimaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeSecondaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeTableName" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading3" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading4" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+                <xs:element name="ProductCharacteristicCode" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ProductCharacteristicCode" referenceNum="750" segmentTag="PID" position="02" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ProductCharacteristicCode" referenceNum="7081" segmentTag="IMD" position="02" subPos="" spsInternal="" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="AgencyQualifierCode" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ProductOrItemDescription/AgencyQualifierCode" referenceNum="559" segmentTag="PID" position="03" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ProductDescriptionCode" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ProductDescriptionCode" referenceNum="751" segmentTag="PID" position="04" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ProductDescription" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ProductDescription" referenceNum="352" segmentTag="PID" position="05" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ProductDescription" referenceNum="369" segmentTag="G69" position="01" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ProductDescription" referenceNum="369" segmentTag="G69" position="01" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ProductDescription" referenceNum="7008" segmentTag="IMD" position="03" subPos="04" spsInternal="" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ProductDescription" referenceNum="7008" segmentTag="IMD" position="03" subPos="05" spsInternal="" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="SurfaceLayerPositionCode" type="xs:string" minOccurs="0"/>
+                <xs:element name="SourceSubqualifier" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="SourceSubqualifier" referenceNum="822" segmentTag="PID" position="05" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="YesOrNoResponse" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ProductOrItemDescription/YesOrNoResponse" referenceNum="1073" segmentTag="PID" position="08" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="LanguageCode" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ProductOrItemDescription/LanguageCode" referenceNum="819" segmentTag="PID" position="09" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ProductOrItemDescription/LanguageCode" referenceNum="3453" segmentTag="IMD" position="03" subPos="06" spsInternal="" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

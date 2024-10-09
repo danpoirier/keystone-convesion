@@ -1,0 +1,102 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.spscommerce.com/RSX"
+	xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+	<xs:element name="ShipmentLine" minOccurs="0">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LineSequenceNumber" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ApplicationId" type="xs:string" minOccurs="0"/>
+				<xs:element name="BuyerPartNumber" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="VendorPartNumber" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ConsumerPackageCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="EAN" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="GTIN" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="UPCCaseCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="NatlDrugCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="InternationalStandardBookNumber" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductID" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PartNumberQual" type="xs:string" minOccurs="0">
+							</xs:element>
+							<xs:element name="PartNumber" type="xs:string" minOccurs="0">
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OrderQty" type="xs:decimal" minOccurs="0">
+				</xs:element>
+				<xs:element name="OrderQtyUOM" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="PurchasePriceType" type="xs:string" minOccurs="0"/>
+				<xs:element name="PurchasePrice" type="xs:decimal" minOccurs="0">
+				</xs:element>
+				<xs:element name="PurchasePriceBasis" type="xs:string" minOccurs="0"/>
+				<xs:element name="ItemStatusCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ShipQty" type="xs:decimal" minOccurs="0">
+				</xs:element>
+				<xs:element name="ShipQtyUOM" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="CumulativeQty" type="xs:decimal" minOccurs="0"/>
+				<xs:element name="ShipDate" type="xs:date" minOccurs="0">
+				</xs:element>
+				<xs:element name="QtyLeftToReceive" type="xs:decimal" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductSizeCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductSizeDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductColorCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductColorDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductMaterialCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductMaterialDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductProcessCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductProcessDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="Department" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="DepartmentDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="Class" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="SellerDateCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="NRFStandardColorAndSize" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NRFColorCode" type="xs:string" minOccurs="0">
+							</xs:element>
+							<xs:element name="ColorCategoryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="ColorPrimaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="NRFSizeCode" type="xs:string" minOccurs="0">
+							</xs:element>
+							<xs:element name="SizeCategoryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizePrimaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeSecondaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeTableName" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading3" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading4" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

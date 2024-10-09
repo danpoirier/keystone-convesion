@@ -1,0 +1,121 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.spscommerce.com/RSX"
+    xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+    <xs:element name="Pack">
+        <xs:annotation>
+            <xs:appinfo>
+                <spsxs:filter>
+                    <spsxs:productionChain name="Supplier">
+                        <spsxs:industrySegment name="GeneralMerchandise">
+                            <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                        </spsxs:industrySegment>
+                        <spsxs:industrySegment name="WarehouseFulfillment">
+                            <spsxs:fulfillmentModel name="StockRelease"/>
+                        </spsxs:industrySegment>
+                        <spsxs:industrySegment name="Grocery">
+                            <spsxs:fulfillmentModel name="Bulk-Import"/>
+                        </spsxs:industrySegment>
+                    </spsxs:productionChain>
+                    <spsxs:productionChain name="Retailer">
+                        <spsxs:industrySegment name="WarehouseFulfillment">
+                            <spsxs:fulfillmentModel name="StockRelease"/>
+                        </spsxs:industrySegment>
+                    </spsxs:productionChain>
+                </spsxs:filter>
+            </xs:appinfo>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PackLevelType" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PackLevelType" referenceNum="735" segmentTag="HL" position="03" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PackLevelType" referenceNum="7075" segmentTag="CPS" position="03" subPos="" spsInternal="" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ShippingSerialID" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="ShippingSerialID" referenceNum="87" segmentTag="MAN" position="02" subPos="" spsInternal="MAN01=GM" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ShippingSerialID" referenceNum="87" segmentTag="MAN" position="05" subPos="" spsInternal="MAN04=GM" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ShippingSerialID" referenceNum="87" segmentTag="MAN" position="02" subPos="" spsInternal="MAN01=GM" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ShippingSerialID" referenceNum="87" segmentTag="MAN" position="05" subPos="" spsInternal="MAN04=GM" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ShippingSerialID" referenceNum="7402" segmentTag="GIN" position="02" subPos="01" spsInternal="PCI01=33E" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="CarrierPackageID" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="CarrierPackageID" referenceNum="87" segmentTag="MAN" position="02" subPos="" spsInternal="MAN01=CP" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CarrierPackageID" referenceNum="87" segmentTag="MAN" position="05" subPos="" spsInternal="MAN04=CP" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CarrierPackageID" referenceNum="87" segmentTag="MAN" position="02" subPos="" spsInternal="MAN01=CP" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CarrierPackageID" referenceNum="87" segmentTag="MAN" position="05" subPos="" spsInternal="MAN04=CP" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+QUALIFIED_GROUPS
+ShippingLabel/Header/Address
+ShippingLabel/Header/Dates
+ShippingLabel/Header/QuantityTotals
+ShippingLabel/Header/References
+ShippingLabel/Item/ProductID
+ShippingLabel/Item/Subline/ProductID
+ShippingLabel/Pack/Item/ProductID
+ShippingLabel/Pack/Item/Subline/ProductID
+ShippingLabel/Pack/MarksAndNumbersCollection
+ShippingLabel/Pack/Pack/Item/ProductID
+ShippingLabel/Pack/Pack/Item/Subline/ProductID
+ShippingLabel/Pack/Pack/MarksAndNumbersCollection

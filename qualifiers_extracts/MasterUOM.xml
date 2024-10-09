@@ -1,0 +1,1329 @@
+  <UnitOfMeasure sheet="MasterUOM">
+    <restriction>
+      <enumeration value="01">
+        <annotation>
+          <documentation>Actual Pounds</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="03">
+        <annotation>
+          <documentation>Seconds</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="12">
+        <annotation>
+          <documentation>Packet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="15">
+        <annotation>
+          <documentation>Stick</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1N">
+        <annotation>
+          <documentation>Count</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2N">
+        <annotation>
+          <documentation>Decibel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2P">
+        <annotation>
+          <documentation>Kilobyte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2W">
+        <annotation>
+          <documentation>Bin</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="31">
+        <annotation>
+          <documentation>Catch Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3F">
+        <annotation>
+          <documentation>Kilograms per Liter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3T">
+        <annotation>
+          <documentation>Terabyte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4E">
+        <annotation>
+          <documentation>Twenty Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4F">
+        <annotation>
+          <documentation>Hundred Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4G">
+        <annotation>
+          <documentation>Microliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="50">
+        <annotation>
+          <documentation>Actual Kilograms</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5I">
+        <annotation>
+          <documentation>Standard Cubic Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="68">
+        <annotation>
+          <documentation>Ampere[Amp]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="8C">
+        <annotation>
+          <documentation>Cord</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AA">
+        <annotation>
+          <documentation>Ball</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AD">
+        <annotation>
+          <documentation>Bytes</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AF">
+        <annotation>
+          <documentation>Centigram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AM">
+        <annotation longDescription="A sealed glass capsule containing a liquid">
+          <documentation>Ampoule</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AS">
+        <annotation>
+          <documentation>Assortment</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AV">
+        <annotation>
+          <documentation>Capsule</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AY">
+        <annotation>
+          <documentation>Assembly</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BA">
+        <annotation>
+          <documentation>Bale</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BB">
+        <annotation spsInternal="SPS INTERNAL: Used for measuring Tin. It is defined as 112 sheets, each 14 x 20 inches. The weight is adjusted by the thickness of the tin.">
+          <documentation>Base Box</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BC">
+        <annotation>
+          <documentation>Bucket</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BD">
+        <annotation>
+          <documentation>Bundle</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BF">
+        <annotation>
+          <documentation>BoardFeet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BG">
+        <annotation>
+          <documentation>Bag</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BH">
+        <annotation>
+          <documentation>Brush</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BI">
+        <annotation>
+          <documentation>Bar</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BJ">
+        <annotation>
+          <documentation>Band</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BK">
+        <annotation>
+          <documentation>Book</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BL">
+        <annotation>
+          <documentation>Block</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BM">
+        <annotation>
+          <documentation>Bolt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BN">
+        <annotation>
+          <documentation>Bulk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BO">
+        <annotation>
+          <documentation>Bottle</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BP">
+        <annotation>
+          <documentation>Hundred Board Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BR">
+        <annotation>
+          <documentation>Barrel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BT">
+        <annotation>
+          <documentation>Belt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BTU">
+        <annotation>
+          <documentation>British Thermal Units</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BU">
+        <annotation>
+          <documentation>Bushel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BX">
+        <annotation>
+          <documentation>Box</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="C3">
+        <annotation>
+          <documentation>Centiliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="C4">
+        <annotation>
+          <documentation>Carload</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="C8">
+        <annotation>
+          <documentation>Cubic Decimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CA">
+        <annotation>
+          <documentation>Case</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CA1">
+        <annotation>
+          <documentation>Forty Eight Case</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CA2">
+        <annotation>
+          <documentation>Fifteen Case</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CB">
+        <annotation>
+          <documentation>Carboy</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CC">
+        <annotation>
+          <documentation>Cubic Centimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CD">
+        <annotation>
+          <documentation>Carat</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CE">
+        <annotation>
+          <documentation>Centigrade/Celsius</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CF">
+        <annotation>
+          <documentation>Cubic Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CFM">
+        <annotation>
+          <documentation>Cubic Feet Per Minute</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CG">
+        <annotation>
+          <documentation>Card</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CH">
+        <annotation>
+          <documentation>Container</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CI">
+        <annotation>
+          <documentation>Cubic Inches</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CL">
+        <annotation>
+          <documentation>Cylinder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CM">
+        <annotation>
+          <documentation>Centimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CN">
+        <annotation>
+          <documentation>Can</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CP">
+        <annotation>
+          <documentation>Crate</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CQ">
+        <annotation>
+          <documentation>Cartridge</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CR">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: MTQ">
+          <documentation>Cubic Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CS">
+        <annotation>
+          <documentation>Cassette</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CT">
+        <annotation>
+          <documentation>Carton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CU">
+        <annotation>
+          <documentation>Cup</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CW">
+        <annotation>
+          <documentation>Hundred Pounds</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CX">
+        <annotation>
+          <documentation>Coil</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CY">
+        <annotation>
+          <documentation>Cubic Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DA">
+        <annotation>
+          <documentation>Days</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DB">
+        <annotation longDescription="Weight of the item when dry.  Qualifier should only be used if distinction is needed between pounds and dry pounds [i.e. pounds of wet cement vs. dry cement]">
+          <documentation>Dry Pounds</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DC">
+        <annotation>
+          <documentation>Disc</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DD">
+        <annotation longDescription="Used to describe angles. This is not to be used to describe temperatures.">
+          <documentation>Degree</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DE">
+        <annotation longDescription="Equal to 1.375 cubic feet in the United States. Typically used to measure wood">
+          <documentation>Deal[U.S.]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DG">
+        <annotation>
+          <documentation>Decigram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DH">
+        <annotation>
+          <documentation>Miles</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DI">
+        <annotation>
+          <documentation>Dispenser</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DK">
+        <annotation>
+          <documentation>Kilometer</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DL">
+        <annotation>
+          <documentation>Deciliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DM">
+        <annotation>
+          <documentation>Decimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DO">
+        <annotation>
+          <documentation>Dollars[U.S.]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DP">
+        <annotation>
+          <documentation>Dozen Pair</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DR">
+        <annotation>
+          <documentation>Drum</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DS">
+        <annotation>
+          <documentation>Display</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DW">
+        <annotation>
+          <documentation>Calendar Days</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DWT">
+        <annotation longDescription="Used in the valuation and measurement of precious metals. Equal to 24 grains, 1&#8260;20 of a troy ounce, and 1.55517384 grams.">
+          <documentation>Pennyweight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DZ">
+        <annotation>
+          <documentation>Dozen</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="E1">
+        <annotation>
+          <documentation>Hectometer</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EA">
+        <annotation>
+          <documentation>Each</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EP">
+        <annotation>
+          <documentation>Eleven Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EV">
+        <annotation>
+          <documentation>Envelope</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FA">
+        <annotation>
+          <documentation>Fahrenheit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FF">
+        <annotation>
+          <documentation>Hundred Cubic Meters</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FO">
+        <annotation>
+          <documentation>Fluid Ounce</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FT">
+        <annotation>
+          <documentation>Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FYGD">
+        <annotation>
+          <documentation>55 Gallon Drum</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FZ">
+        <annotation longDescription="Equal to 1/20 of an Imperial Pint, or 28.416 milliliters">
+          <documentation>Imperial Fluid Ounce</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GA">
+        <annotation>
+          <documentation>Gallon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GB">
+        <annotation>
+          <documentation>Gigabyte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GH">
+        <annotation>
+          <documentation>Half Gallon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GHZ">
+        <annotation>
+          <documentation>Gigahertz</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GL">
+        <annotation>
+          <documentation>Grams per Liter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GM">
+        <annotation>
+          <documentation>Grams per Square Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GN">
+        <annotation>
+          <documentation>Gross Gallon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GPM">
+        <annotation>
+          <documentation>Gallons per Minute [US]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GR">
+        <annotation>
+          <documentation>Gram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GS">
+        <annotation>
+          <documentation>Gross</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="H1">
+        <annotation>
+          <documentation>Half Pages Electronic</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="H2">
+        <annotation>
+          <documentation>Half Liter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="H3">
+        <annotation>
+          <documentation>Eighteen Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="H4">
+        <annotation>
+          <documentation>Hectoliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="H6">
+        <annotation>
+          <documentation>Thirty Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HA">
+        <annotation>
+          <documentation>Hank</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HC">
+        <annotation>
+          <documentation>Hundred Count</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HCF">
+        <annotation>
+          <documentation>Hundred Cubic Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HD">
+        <annotation>
+          <documentation>Half Dozen</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HF">
+        <annotation>
+          <documentation>Hundred Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HK">
+        <annotation>
+          <documentation>Hundred Kilograms</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HL">
+        <annotation>
+          <documentation>Hundred Feet Linear</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HR">
+        <annotation>
+          <documentation>Hours</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HS">
+        <annotation>
+          <documentation>Hundred Square Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HU">
+        <annotation>
+          <documentation>Hundred</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HV">
+        <annotation>
+          <documentation>Hundred Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HY">
+        <annotation>
+          <documentation>Hundred Yards</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HZ">
+        <annotation>
+          <documentation>Hertz</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="I">
+        <annotation>
+          <documentation>Interlaced</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IM">
+        <annotation>
+          <documentation>Impression</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IN">
+        <annotation>
+          <documentation>Inch</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="JA">
+        <annotation>
+          <documentation>Job</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="JO">
+        <annotation longDescription="Usually used for ordering pipe. In this context a joint is a section of pipe, usually of predetermined length.">
+          <documentation>Joint</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="JR">
+        <annotation>
+          <documentation>Jar</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="JU">
+        <annotation>
+          <documentation>Jug</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="K6">
+        <annotation>
+          <documentation>Kiloliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KC">
+        <annotation>
+          <documentation>Kilograms per Cubic Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KE">
+        <annotation>
+          <documentation>Keg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KG">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: KGM; convert Logistics: K">
+          <documentation>Kilogram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KH">
+        <annotation>
+          <documentation>Kilowatt Hours</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KM">
+        <annotation>
+          <documentation>Kilograms per Square Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KT">
+        <annotation>
+          <documentation>Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KV">
+        <annotation>
+          <documentation>Kelvin</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KVA">
+        <annotation>
+          <documentation>Kilovolt Amperes</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KVAH">
+        <annotation>
+          <documentation>Kilovolt Amperes Hour</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KW">
+        <annotation>
+          <documentation>Kilowatt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LB">
+        <annotation spsInternal="SPS INTERNAL: convert Grocery: PG; convert Logistics: L">
+          <documentation>Pound</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LF">
+        <annotation>
+          <documentation>Linear Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LG">
+        <annotation longDescription="Equal to 2240 pounds">
+          <documentation>Long Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LI">
+        <annotation>
+          <documentation>Linear Inch</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LK">
+        <annotation>
+          <documentation>Link</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LM">
+        <annotation>
+          <documentation>Linear Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LN">
+        <annotation>
+          <documentation>Length</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LO">
+        <annotation>
+          <documentation>Lot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LR">
+        <annotation>
+          <documentation>Layer[s]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LS">
+        <annotation longDescription="Often used when a sum is pre-negotiated outside of an order">
+          <documentation>Lump Sum</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LT">
+        <annotation>
+          <documentation>Liter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LU">
+        <annotation>
+          <documentation>Lumens</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LY">
+        <annotation>
+          <documentation>Linear Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MB">
+        <annotation>
+          <documentation>Megabyte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MC">
+        <annotation>
+          <documentation>Microgram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ME">
+        <annotation>
+          <documentation>Milligram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MG">
+        <annotation>
+          <documentation>Metric Gross Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MHZ">
+        <annotation>
+          <documentation>Megahertz</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MJ">
+        <annotation>
+          <documentation>Minutes</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MK">
+        <annotation>
+          <documentation>Milligrams per Square Inch</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ML">
+        <annotation>
+          <documentation>Milliliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MM">
+        <annotation>
+          <documentation>Millimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MN">
+        <annotation>
+          <documentation>Metric Net Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MO">
+        <annotation>
+          <documentation>Months</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MOA">
+        <annotation>
+          <documentation>Minute of Angle</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MP">
+        <annotation longDescription="Equal to 1000 kilograms">
+          <documentation>Metric Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MR">
+        <annotation>
+          <documentation>Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NG">
+        <annotation>
+          <documentation>Net Gallons</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NS">
+        <annotation longDescription="Equal to 2000 pounds">
+          <documentation>Short Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NX">
+        <annotation>
+          <documentation>Parts per Thousand</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="OP">
+        <annotation>
+          <documentation>Two Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="OZ">
+        <annotation spsInternal="SPS INTERNAL: convert Grocery: FO">
+          <documentation>Ounce Av</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P">
+        <annotation>
+          <documentation>Progressive</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P3">
+        <annotation>
+          <documentation>Three Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P4">
+        <annotation>
+          <documentation>Four Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P5">
+        <annotation>
+          <documentation>Five Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P6">
+        <annotation>
+          <documentation>Six Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P7">
+        <annotation>
+          <documentation>Seven Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P8">
+        <annotation>
+          <documentation>Eight Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P9">
+        <annotation>
+          <documentation>Nine Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PA">
+        <annotation>
+          <documentation>Pail</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PC">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: PCE">
+          <documentation>Piece</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PD">
+        <annotation>
+          <documentation>Pad</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PER">
+        <annotation longDescription="The proportion or share in relation to the whole.">
+          <documentation>Percent</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PF">
+        <annotation>
+          <documentation>Pallet[Lift]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PH">
+        <annotation>
+          <documentation>Pack[Pak]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PK">
+        <annotation>
+          <documentation>Package</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PL">
+        <annotation>
+          <documentation>Pallet/Unit Load</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PO">
+        <annotation>
+          <documentation>Pounds per Inch of Length</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PP">
+        <annotation>
+          <documentation>Plate</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PR">
+        <annotation>
+          <documentation>Pair</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PSI">
+        <annotation longDescription="Pressure a gas or liquid exerts on the walls of its container">
+          <documentation>Pounds Per Square Inch</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PT">
+        <annotation>
+          <documentation>Pint</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PV">
+        <annotation>
+          <documentation>Half Pint</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PXL">
+        <annotation>
+          <documentation>Pixel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PY">
+        <annotation>
+          <documentation>Peck, Dry U.S.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Q1">
+        <annotation longDescription="One of a set of four 3-month divisions of a year">
+          <documentation>Quarter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Q4">
+        <annotation>
+          <documentation>Fifty</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Q5">
+        <annotation>
+          <documentation>Twenty Five</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Q6">
+        <annotation>
+          <documentation>Thirty Six</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Q7">
+        <annotation>
+          <documentation>Twenty Four</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QD">
+        <annotation>
+          <documentation>Quarter Dozen</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QS">
+        <annotation>
+          <documentation>Quart - Dry</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QT">
+        <annotation>
+          <documentation>Quart</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RA">
+        <annotation>
+          <documentation>Rack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RE">
+        <annotation>
+          <documentation>Reel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RL">
+        <annotation>
+          <documentation>Roll</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RM">
+        <annotation>
+          <documentation>Ream</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RO">
+        <annotation>
+          <documentation>Round</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SC">
+        <annotation>
+          <documentation>Square Centimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SF">
+        <annotation>
+          <documentation>Square Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SH">
+        <annotation>
+          <documentation>Sheet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SI">
+        <annotation>
+          <documentation>Square Inches</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SJ">
+        <annotation>
+          <documentation>Sack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SL">
+        <annotation>
+          <documentation>Sleeve</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SM">
+        <annotation>
+          <documentation>Square Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SO">
+        <annotation>
+          <documentation>Spool</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SP">
+        <annotation>
+          <documentation>Shelf Package</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SQ">
+        <annotation>
+          <documentation>Square</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ST">
+        <annotation>
+          <documentation>Set</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SV">
+        <annotation>
+          <documentation>Skid</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SY">
+        <annotation>
+          <documentation>Square Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SZ">
+        <annotation>
+          <documentation>Syringe</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="T4">
+        <annotation>
+          <documentation>Thousand Bags</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TB">
+        <annotation>
+          <documentation>Tube</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TC">
+        <annotation>
+          <documentation>Truckload</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TCF">
+        <annotation>
+          <documentation>Thousand Cubic Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TE">
+        <annotation>
+          <documentation>Tote</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TH">
+        <annotation>
+          <documentation>Thousand</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TI">
+        <annotation>
+          <documentation>Thousand Square Inches</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TK">
+        <annotation>
+          <documentation>Tank</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TL">
+        <annotation>
+          <documentation>Thousand Feet[Linear]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TM">
+        <annotation>
+          <documentation>Thousand Feet[Board]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TO">
+        <annotation spsInternal="SPS INTERNAL: Used to measure the weight of precious metals. One troy ounce is equal to 31.1034768 grams.">
+          <documentation>Troy Ounce</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TP">
+        <annotation>
+          <documentation>Ten Pack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TR">
+        <annotation>
+          <documentation>Ten Square Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TRM">
+        <annotation>
+          <documentation>Therms</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TS">
+        <annotation>
+          <documentation>Thousand Square Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TU">
+        <annotation>
+          <documentation>Thousand Yards[Linear]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TY">
+        <annotation>
+          <documentation>Tray</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="U2">
+        <annotation>
+          <documentation>Tablet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="U5">
+        <annotation>
+          <documentation>Two Hundred Fifty</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UN">
+        <annotation>
+          <documentation>Unit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UZ">
+        <annotation>
+          <documentation>Fifty Count</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VAR">
+        <annotation longDescription="A unit that is used to measure reactive power in AC circuits">
+          <documentation>Volt-Ampere Reactive</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VC">
+        <annotation>
+          <documentation>Five Hundred</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VI">
+        <annotation>
+          <documentation>Vial</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VO">
+        <annotation>
+          <documentation>Voltage</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WA">
+        <annotation>
+          <documentation>Watts</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WD">
+        <annotation>
+          <documentation>Work Days</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WG">
+        <annotation>
+          <documentation>Wine Gallon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WH">
+        <annotation>
+          <documentation>Wheel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WK">
+        <annotation>
+          <documentation>Weeks</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WR">
+        <annotation>
+          <documentation>Wrap</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="X8">
+        <annotation>
+          <documentation>Loaf</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Y4">
+        <annotation>
+          <documentation>Tub</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="YD">
+        <annotation>
+          <documentation>Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="YR">
+        <annotation>
+          <documentation>Year</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ZC">
+        <annotation longDescription="One of two 6-month divisions of a year">
+          <documentation>Semiannual</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </UnitOfMeasure>

@@ -1,0 +1,54 @@
+  <AgencyQualifierCode>
+    <restriction>
+      <enumeration value="13">
+        <annotation>
+          <documentation>Arkansas</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AX">
+        <annotation>
+          <documentation>ANSI Accredited Standards Committee, X12</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BI">
+        <annotation>
+          <documentation>Book Industry Systems Advisory Committee [BISAC]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DD">
+        <annotation longDescription="A department of the federal executive branch entrusted with formulating military policies and maintaining American military forces [DOD]">
+          <documentation>Department of Defense</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FA">
+        <annotation>
+          <documentation>Fabric and Supplier Linkage Council [FASLINC]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FC">
+        <annotation>
+          <documentation>Federal Communications Commission [FCC]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NEMA">
+        <annotation longDescription="The items rating as defined by the National Electrical Manufacturers Association [NEMA]">
+          <documentation>NEMA Rating</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ST">
+        <annotation>
+          <documentation>American Iron and Steel Institute</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SZAU">
+        <annotation>
+          <documentation>Sizing Authority</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VI">
+        <annotation>
+          <documentation>Voluntary Inter-Industry Commerce Standard [VICS] EDI</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </AgencyQualifierCode>

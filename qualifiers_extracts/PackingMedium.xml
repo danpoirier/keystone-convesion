@@ -1,0 +1,239 @@
+  <PackingMedium sheet="PackingMedium">
+    <restriction>
+      <enumeration value="BAG">
+        <annotation>
+          <documentation>Bag</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BAL">
+        <annotation>
+          <documentation>Bale</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BBL">
+        <annotation>
+          <documentation>Barrel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BDL">
+        <annotation>
+          <documentation>Bundle</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BIN">
+        <annotation longDescription="A container or enclosed space for storage">
+          <documentation>Bin</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BLC">
+        <annotation longDescription="A preformed container used for small consumer good">
+          <documentation>Blister Card</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BLK">
+        <annotation>
+          <documentation>Bulk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BOT">
+        <annotation>
+          <documentation>Bottle</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BOX">
+        <annotation>
+          <documentation>Box</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BXI">
+        <annotation>
+          <documentation>Box with inner container</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BXT">
+        <annotation longDescription="A roughly cylindrical open container, typically with a lid">
+          <documentation>Bucket</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CAN">
+        <annotation>
+          <documentation>Can</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CAS">
+        <annotation>
+          <documentation>Case</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CLM">
+        <annotation longDescription="A one piece container made of two parts, joined by a hinge">
+          <documentation>Clamshell</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="COL">
+        <annotation>
+          <documentation>Coil</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CRT">
+        <annotation>
+          <documentation>Crate</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CSK">
+        <annotation longDescription="A large barrel-like container made of wood, metal, or plastic, used for storing liquids, typically alcoholic drinks">
+          <documentation>Cask</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CTN">
+        <annotation>
+          <documentation>Carton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DRM">
+        <annotation>
+          <documentation>Drum</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HRB">
+        <annotation>
+          <documentation>On Hanger or Rack in Boxes</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="JAR">
+        <annotation>
+          <documentation>Jar</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KEG">
+        <annotation>
+          <documentation>Keg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KIT">
+        <annotation>
+          <documentation>Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LIF">
+        <annotation>
+          <documentation>Lift</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LNR">
+        <annotation>
+          <documentation>Liners</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LSE">
+        <annotation>
+          <documentation>Loose</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PAL">
+        <annotation>
+          <documentation>Pail</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PCK">
+        <annotation>
+          <documentation>Packed not otherwise specified</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PCS">
+        <annotation longDescription="If your item doesn't have any packaging besides the consumer package">
+          <documentation>Pieces</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PLT">
+        <annotation>
+          <documentation>Pallet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PWI">
+        <annotation longDescription="Non-reusable pallet box with inserts">
+          <documentation>Pallet Box with Inserts</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RBI">
+        <annotation longDescription="Bulk shipping container with included inserts">
+          <documentation>Reusable Bulk Container with Insert</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RCK">
+        <annotation longDescription="A framework, typically with rails, bars, hooks, or pegs, for holding or storing">
+          <documentation>Rack</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="REL">
+        <annotation>
+          <documentation>Reel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ROL">
+        <annotation>
+          <documentation>Roll</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RPL">
+        <annotation>
+          <documentation>Reusable Pallet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RTC">
+        <annotation longDescription="Reusable top cap for pallets to protect from moisture, dust, etc.">
+          <documentation>Reusable Top Cap</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SKD">
+        <annotation longDescription="Similar to pallets but Skids generally do not have bottoms">
+          <documentation>Skid</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SLP">
+        <annotation longDescription="Thin pallet-sized sheets of paper, metal or other material, generally shrink wrapped for added support">
+          <documentation>Slip sheet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SLV">
+        <annotation>
+          <documentation>Sleeve</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SPC">
+        <annotation longDescription="Container made up of two parts, typically paper and plastic, where the plastic is formed over the product">
+          <documentation>Skin Pack Card</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SPL">
+        <annotation>
+          <documentation>Spool</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SRW">
+        <annotation>
+          <documentation>Shrink Wrap</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TBE">
+        <annotation>
+          <documentation>Tube</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TNK">
+        <annotation>
+          <documentation>Tank</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TRY">
+        <annotation>
+          <documentation>Tray</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WRP">
+        <annotation>
+          <documentation>Wrap</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </PackingMedium>

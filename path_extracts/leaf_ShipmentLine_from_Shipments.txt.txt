@@ -1,0 +1,15 @@
+Shipment/ContainerLevel/OrderLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/ContainerLevel/OrderLevel/ItemLevel/ShipmentLine
+Shipment/ContainerLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/ContainerLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/PackLevel/ItemLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/PackLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/ItemLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/ContainerLevel/OrderLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/ContainerLevel/OrderLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/ContainerLevel/PackLevel/ItemLevel/ShipmentLine
+Shipment/OrderLevel/ContainerLevel/ItemLevel/ShipmentLine
+Shipment/PackLevel/ItemLevel/ShipmentLine
+Shipment/ItemLevel/ShipmentLine

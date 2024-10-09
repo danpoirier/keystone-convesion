@@ -1,0 +1,468 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.spscommerce.com/RSX"
+    xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+    <xs:element name="ShipmentHeader">
+        <xs:annotation>
+            <xs:appinfo>
+                <spsxs:filter>
+                    <spsxs:productionChain name="Supplier">
+                        <spsxs:industrySegment name="GeneralMerchandise">
+                            <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                        </spsxs:industrySegment>
+                        <spsxs:industrySegment name="WarehouseFulfillment">
+                            <spsxs:fulfillmentModel name="StockRelease,StockTransfer"/>
+                        </spsxs:industrySegment>
+                        <spsxs:industrySegment name="Grocery">
+                            <spsxs:fulfillmentModel name="Bulk-Import"/>
+                        </spsxs:industrySegment>
+                    </spsxs:productionChain>
+                    <spsxs:productionChain name="Retailer">
+                        <spsxs:industrySegment name="WarehouseFulfillment">
+                            <spsxs:fulfillmentModel name="StockRelease"/>
+                        </spsxs:industrySegment>
+                    </spsxs:productionChain>
+                </spsxs:filter>
+            </xs:appinfo>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="TradingPartnerId">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease,StockTransfer"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                        </xs:appinfo>
+                    </xs:annotation>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="1"/>
+                            <xs:maxLength value="15"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="ShipmentIdentification" type="xs:string">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease,StockTransfer"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/ShipmentIdentification" referenceNum="396" segmentTag="BSN" position="02" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/ShipmentIdentification" referenceNum="145" segmentTag="W06" position="04" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/ShipmentIdentification" referenceNum="145" segmentTag="W06" position="04" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/ShipmentIdentification" referenceNum="1004" segmentTag="BGM" position="02" subPos="" spsInternal="" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ShipDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="ShipmentHeader/ShipDate" referenceNum="373" segmentTag="DTM" position="02" subPos="" spsInternal="DTM01=011" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ShipmentHeader/ShipDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=11" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ShipmentHeader/ShipDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=11" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ShipmentHeader/ShipDate" referenceNum="2380" segmentTag="DTM" position="01" subPos="02" spsInternal="DTM01-01=11" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ShipmentTime" type="xs:time" minOccurs="0"/>
+                <xs:element name="TsetPurposeCode" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease,StockTransfer"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="TsetPurposeCode" referenceNum="353" segmentTag="BSN" position="01" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="TsetPurposeCode" referenceNum="514" segmentTag="W06" position="01" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="TsetPurposeCode" referenceNum="514" segmentTag="W06" position="01" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="TsetPurposeCode" referenceNum="1225" segmentTag="BGM" position="03" subPos="" spsInternal="" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="TsetTypeCode" type="xs:string" minOccurs="0"/>
+                <xs:element name="ShipNoticeDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease,StockTransfer"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/ShipNoticeDate" referenceNum="373" segmentTag="BSN" position="03" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/ShipNoticeDate" referenceNum="373" segmentTag="W06" position="03" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/ShipNoticeDate" referenceNum="373" segmentTag="W06" position="03" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/ShipNoticeDate" referenceNum="2380" segmentTag="DTM" position="01" subPos="02" spsInternal="DTM01-01=111" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ShipNoticeTime" type="xs:time" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/ShipNoticeTime" referenceNum="337" segmentTag="BSN" position="04" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/ShipNoticeTime" referenceNum="2380" segmentTag="DTM" position="01" subPos="02" spsInternal="DTM01-01=111" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ASNStructureCode" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/ASNStructureCode" referenceNum="1005" segmentTag="BSN" position="05" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="BuyersCurrency" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="BuyersCurrency" referenceNum="100" segmentTag="CUR" position="02" subPos="" spsInternal="CUR01=BY" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="SellersCurrency" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="SellersCurrency" referenceNum="100" segmentTag="CUR" position="02" subPos="" spsInternal="CUR01=SE" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ExchangeRate" type="xs:decimal" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ExchangeRate" referenceNum="280" segmentTag="CUR" position="03" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="StatusReasonCode" type="xs:string" minOccurs="0"/>
+                <xs:element name="BillOfLadingNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease,StockTransfer"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/BillOfLadingNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=BM" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/BillOfLadingNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=BM" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/BillOfLadingNumber" referenceNum="598" segmentTag="W28" position="08" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/BillOfLadingNumber" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=BM" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="CarrierProNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease,StockTransfer"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                                <spsxs:productionChain name="Retailer">
+                                    <spsxs:industrySegment name="WarehouseFulfillment">
+                                        <spsxs:fulfillmentModel name="StockRelease"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="CarrierProNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=CN" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CarrierProNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=CN" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CarrierProNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=CN" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CarrierProNumber" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=CN" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="AppointmentNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/AppointmentNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=AO" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PickupNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/PickupNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=P8" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/PickupNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=P8" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/PickupNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=P8" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="RequestedPickupDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/RequestedPickupDate" referenceNum="373" segmentTag="DTM" position="02" subPos="" spsInternal="DTM01=118" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/RequestedPickupDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=69" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/RequestedPickupDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=69" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="RequestedPickupTime" type="xs:time" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/RequestedPickupTime" referenceNum="337" segmentTag="DTM" position="03" subPos="" spsInternal="DTM01=118" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/RequestedPickupTime" referenceNum="337" segmentTag="G62" position="04" subPos="" spsInternal="G6203=Y" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/RequestedPickupTime" referenceNum="337" segmentTag="G62" position="04" subPos="" spsInternal="G6203=Y" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ScheduledShipDate" type="xs:date" minOccurs="0"/>
+                <xs:element name="ScheduledShipTime" type="xs:time" minOccurs="0"/>
+                <xs:element name="CurrentScheduledDeliveryDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryDate" referenceNum="373" segmentTag="DTM" position="02" subPos="" spsInternal="DTM01=017/067" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=67/70/78" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=67/70/78" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryDate" referenceNum="2380" segmentTag="DTM" position="01" subPos="02" spsInternal="DTM01-01=17/67" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="CurrentScheduledDeliveryTime" type="xs:time" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,DropShip,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryTime" referenceNum="337" segmentTag="DTM" position="03" subPos="" spsInternal="DTM01=017/067" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryTime" referenceNum="337" segmentTag="G62" position="04" subPos="" spsInternal="G6203=X" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryTime" referenceNum="337" segmentTag="G62" position="04" subPos="" spsInternal="G6203=X" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledDeliveryTime" referenceNum="2380" segmentTag="DTM" position="01" subPos="02" spsInternal="DTM01-01=17/67" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="CurrentScheduledShipDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledShipDate" referenceNum="373" segmentTag="DTM" position="02" subPos="" spsInternal="DTM01=068" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="CurrentScheduledShipTime" type="xs:time" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Header/ShipmentHeader/CurrentScheduledShipTime" referenceNum="337" segmentTag="DTM" position="03" subPos="" spsInternal="DTM01=068" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="DocumentVersion" type="xs:string" minOccurs="0"/>
+                <xs:element name="DocumentRevision" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.spscommerce.com/RSX"
+	xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+	<xs:element name="OrderLine">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="OrderQty" type="xs:decimal" minOccurs="0">
+				</xs:element>
+				<xs:element name="OrderQtyUOM" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="PurchasePriceType" type="xs:string" minOccurs="0"/>
+				<xs:element name="PurchasePrice" type="xs:decimal" minOccurs="0">
+				</xs:element>
+				<xs:element name="PurchasePriceBasis" type="xs:string" minOccurs="0"/>
+				<xs:element name="ItemStatusCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="Department" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="DepartmentDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

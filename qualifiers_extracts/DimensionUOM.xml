@@ -1,0 +1,164 @@
+  <DimensionUOM sheet="DimensionUOM">
+    <restriction>
+      <enumeration value="5I">
+        <annotation>
+          <documentation>Standard Cubic Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BF">
+        <annotation>
+          <documentation>BoardFeet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BP">
+        <annotation>
+          <documentation>Hundred Board Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="C8">
+        <annotation>
+          <documentation>Cubic Decimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CC">
+        <annotation>
+          <documentation>Cubic Centimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CF">
+        <annotation>
+          <documentation>Cubic Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CI">
+        <annotation>
+          <documentation>Cubic Inches</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CM">
+        <annotation>
+          <documentation>Centimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CR">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: MTQ">
+          <documentation>Cubic Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CY">
+        <annotation>
+          <documentation>Cubic Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DM">
+        <annotation>
+          <documentation>Decimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FT">
+        <annotation>
+          <documentation>Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HF">
+        <annotation>
+          <documentation>Hundred Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HL">
+        <annotation>
+          <documentation>Hundred Feet Linear</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HS">
+        <annotation>
+          <documentation>Hundred Square Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HY">
+        <annotation>
+          <documentation>Hundred Yards</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IN">
+        <annotation>
+          <documentation>Inch</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LF">
+        <annotation>
+          <documentation>Linear Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LM">
+        <annotation>
+          <documentation>Linear Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LY">
+        <annotation>
+          <documentation>Linear Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MM">
+        <annotation>
+          <documentation>Millimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MR">
+        <annotation>
+          <documentation>Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SF">
+        <annotation>
+          <documentation>Square Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SI">
+        <annotation>
+          <documentation>Square Inches</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SM">
+        <annotation>
+          <documentation>Square Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SY">
+        <annotation>
+          <documentation>Square Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TI">
+        <annotation>
+          <documentation>Thousand Square Inches</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TL">
+        <annotation>
+          <documentation>Thousand Feet[Linear]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TM">
+        <annotation>
+          <documentation>Thousand Feet[Board]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TR">
+        <annotation>
+          <documentation>Ten Square Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TS">
+        <annotation>
+          <documentation>Thousand Square Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="YD">
+        <annotation>
+          <documentation>Yard</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </DimensionUOM>

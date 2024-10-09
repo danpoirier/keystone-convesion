@@ -1,0 +1,332 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.spscommerce.com/RSX"
+    xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+    <xs:element name="PhysicalDetails">
+        <xs:annotation>
+            <xs:appinfo>
+                <spsxs:filter>
+                    <spsxs:productionChain name="Supplier">
+                        <spsxs:industrySegment name="GeneralMerchandise">
+                            <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,MultiStore"/>
+                        </spsxs:industrySegment>
+                        <spsxs:industrySegment name="Grocery">
+                            <spsxs:fulfillmentModel name="Bulk-Import"/>
+                        </spsxs:industrySegment>
+                    </spsxs:productionChain>
+                </spsxs:filter>
+            </xs:appinfo>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PackQualifier" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackValue" type="xs:int" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="GeneralMerchandise">
+                                        <spsxs:fulfillmentModel name="Bulk-Import,CrossDock,MultiStore"/>
+                                    </spsxs:industrySegment>
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackValue" referenceNum="356" segmentTag="PO4" position="01" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackValue" referenceNum="810" segmentTag="PO4" position="14" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackValue" referenceNum="356" segmentTag="W20" position="01" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackValue" referenceNum="356" segmentTag="PAL" position="04" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackValue" referenceNum="810" segmentTag="PAL" position="16" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackValue" referenceNum="7224" segmentTag="PAC" position="01" subPos="" spsInternal="PAC02-01=1/3" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackValue" referenceNum="6060" segmentTag="QTY" position="01" subPos="02" spsInternal="QTY01-01=52/59" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackSize" type="xs:decimal" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackSize" referenceNum="357" segmentTag="PO4" position="02" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackSize" referenceNum="357" segmentTag="W20" position="02" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackUOM" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackUOM" referenceNum="355" segmentTag="PO4" position="03" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackUOM" referenceNum="355" segmentTag="W20" position="03" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackingMedium" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackingMedium" referenceNum="103" segmentTag="PO4" position="04" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackingMaterial" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackingMaterial" referenceNum="103" segmentTag="PO4" position="04" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="WeightQualifier" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/WeightQualifier" referenceNum="187" segmentTag="PO4" position="05" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/WeightQualifier" referenceNum="187" segmentTag="W20" position="05" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/WeightQualifier" referenceNum="187" segmentTag="W12" position="11" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/WeightQualifier" referenceNum="187" segmentTag="W12" position="14" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackWeight" type="xs:decimal" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackWeight" referenceNum="384" segmentTag="PO4" position="06" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackWeight" referenceNum="81" segmentTag="W20" position="04" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackWeight" referenceNum="384" segmentTag="PAL" position="11" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackWeight" referenceNum="6314" segmentTag="MEA" position="03" subPos="02" spsInternal="MEA02-01=G" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackWeightUOM" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackWeightUOM" referenceNum="355" segmentTag="PO4" position="07" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackWeightUOM" referenceNum="188" segmentTag="W20" position="06" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackWeightUOM" referenceNum="355" segmentTag="PAL" position="12" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackWeightUOM" referenceNum="6411" segmentTag="MEA" position="03" subPos="01" spsInternal="MEA02-01=G" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackVolume" type="xs:decimal" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackVolume" referenceNum="385" segmentTag="PO4" position="08" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackVolume" referenceNum="183" segmentTag="W20" position="08" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackVolume" referenceNum="385" segmentTag="PAL" position="13" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackVolume" referenceNum="6314" segmentTag="MEA" position="03" subPos="02" spsInternal="MEA02-01=AAW/ABJ" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackVolumeUOM" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackVolumeUOM" referenceNum="355" segmentTag="PO4" position="09" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackVolumeUOM" referenceNum="355" segmentTag="W20" position="09" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackVolumeUOM" referenceNum="355" segmentTag="PAL" position="14" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackVolumeUOM" referenceNum="6411" segmentTag="MEA" position="03" subPos="01" spsInternal="MEA02-01=AAW/ABJ" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackLength" type="xs:decimal" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackLength" referenceNum="82" segmentTag="PO4" position="10" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackWidth" type="xs:decimal" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackWidth" referenceNum="189" segmentTag="PO4" position="11" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PhysicalDetails/PackWidth" referenceNum="6314" segmentTag="MEA" position="03" subPos="02" spsInternal="MEA02-01=WD/WM" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PackHeight" type="xs:decimal" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/PackHeight" referenceNum="65" segmentTag="PO4" position="12" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="DimensionUOM" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:filter>
+                                <spsxs:productionChain name="Supplier">
+                                    <spsxs:industrySegment name="Grocery">
+                                        <spsxs:fulfillmentModel name="Bulk-Import"/>
+                                    </spsxs:industrySegment>
+                                </spsxs:productionChain>
+                            </spsxs:filter>
+                            <spsxs:ERP>
+                                <spsxs:type level="PhysicalDetails/DimensionUOM" referenceNum="355" segmentTag="PO4" position="13" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Description" type="xs:string" minOccurs="0"/>
+                <xs:element name="SurfaceLayerPositionCode" type="xs:string" minOccurs="0"/>
+                <xs:element name="AssignedID" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

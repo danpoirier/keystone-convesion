@@ -1,0 +1,65 @@
+  <ProductCharacteristicCode>
+    <restriction>
+      <enumeration value="08">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: 161">
+          <documentation>Product Description</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="38">
+        <annotation>
+          <documentation>Grade</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="39">
+        <annotation>
+          <documentation>Luster</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="40">
+        <annotation>
+          <documentation>Shade</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="73">
+        <annotation spsInternal="SPS INTERNAL: convert GeneralMerchandise: 75[SPS INTERNAL: Use only if ProductColorDescription is full]">
+          <documentation>Color Description</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="74">
+        <annotation spsInternal="SPS INTERNAL: convert GeneralMerchandise: 91;[SPS INTERNAL: Use only if ProductSizeDescription is full]">
+          <documentation>Size Description</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="76">
+        <annotation>
+          <documentation>Dye Lot Description</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="92">
+        <annotation spsInternal="SPS INTERNAL: convert GeneralMerchandise: 77,78[SPS INTERNAL: Use only if ProductMaterialDescription is full]">
+          <documentation>Material Description</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AE">
+        <annotation>
+          <documentation>Fragrance</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RE">
+        <annotation longDescription="Used to indicate when a product or item is requested to be returned to the manufacturer, usual due to safety or product defects">
+          <documentation>Recall</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VI">
+        <annotation longDescription="Describes a specific vintage or, special release, of a libation [i.e. Wine, Beer, Spirits]. If only the year of harvest, production, or packaging is being communicated, the Dates group should be used.">
+          <documentation>Vintage</documentation>
+          <appinfo>
+            <example>Earthy</example>
+            <example>Dry</example>
+            <example>Barrel-Aged</example>
+            <example>16 Year</example>
+          </appinfo>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </ProductCharacteristicCode>

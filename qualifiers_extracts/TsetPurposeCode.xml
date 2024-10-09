@@ -1,0 +1,39 @@
+  <TsetPurposeCode>
+    <restriction>
+      <enumeration value="00">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: 9; convert Grocery: N; convert Logistics: A,F,J,N">
+          <documentation>Original</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="01">
+        <annotation spsInternal="SPS INTERNAL: convert GeneralMerchandise: BEG02 = TR; convert Logistics: F">
+          <documentation>Cancellation</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="05">
+        <annotation longDescription="Used when the document should be treated as a full replacement of a previous transmission" spsInternal="SPS INTERNAL: convert Grocery: R; convert Logistics: R">
+          <documentation>Replace</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="06">
+        <annotation spsInternal="SPS INTERNAL: convert Grocery: C; convert GeneralMerchandise: 22; convert Logistics: C">
+          <documentation>Confirmation</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="07">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: 43">
+          <documentation>Duplicate</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="20">
+        <annotation longDescription="Indicates the finalized version of the document and that no additional updates or changes will occur">
+          <documentation>Final Submission</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CN">
+        <annotation longDescription="Used by the ordering party to indicate that an order is complete and should not be further fulfilled, or by the order recipient indicating that they have fulfilled the order to completion.">
+          <documentation>Completion Notification</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </TsetPurposeCode>

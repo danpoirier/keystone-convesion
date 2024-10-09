@@ -1,0 +1,51 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.spscommerce.com/RSX"
+	xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+	<xs:element name="ProductDescription" 
+		xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ProductSizeCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductSizeDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductColorCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductColorDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductMaterialCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductMaterialDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductProcessCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ProductProcessDescription" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="Class" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="SellerDateCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ConsumerPackageCode" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="NRFStandardColorAndSize" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NRFColorCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="ColorCategoryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="ColorPrimaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="NRFSizeCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeCategoryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizePrimaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeSecondaryDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeTableName" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading3" type="xs:string" minOccurs="0"/>
+							<xs:element name="SizeHeading4" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

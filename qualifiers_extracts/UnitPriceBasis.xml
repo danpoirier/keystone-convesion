@@ -1,0 +1,104 @@
+  <UnitPriceBasis sheet="UnitPriceBasis">
+    <restriction>
+      <enumeration value="CA">
+        <annotation>
+          <documentation>Price per Case</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HF">
+        <annotation>
+          <documentation>Price per 100 Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HP">
+        <annotation>
+          <documentation>Price per Hundred</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HT">
+        <annotation>
+          <documentation>Price per Thousand</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HTH">
+        <annotation>
+          <documentation>Price Per Hundred Thousand [100 000]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KM">
+        <annotation>
+          <documentation>Price Per Kilometer</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MT">
+        <annotation>
+          <documentation>Price Per Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PD">
+        <annotation>
+          <documentation>Price per Dozen</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PE">
+        <annotation spsInternal="SPS INTERNAL: convert GeneralMerchandise: LD,LE,TE,WE">
+          <documentation>Price per Each</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PF">
+        <annotation>
+          <documentation>Price per Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PG">
+        <annotation>
+          <documentation>Price per Gram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PK">
+        <annotation>
+          <documentation>Price per Kilogram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PN">
+        <annotation>
+          <documentation>Price per Ten</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PO">
+        <annotation>
+          <documentation>Price per Ounce</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PP">
+        <annotation>
+          <documentation>Price per Pound</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PS">
+        <annotation>
+          <documentation>Price per 1000 Square Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PT">
+        <annotation>
+          <documentation>Price Per Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TF">
+        <annotation>
+          <documentation>Price per 1000 Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TT">
+        <annotation>
+          <documentation>Price Per Ten Thousand [10 000]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UM">
+        <annotation>
+          <documentation>Price per Unit of Measure</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </UnitPriceBasis>

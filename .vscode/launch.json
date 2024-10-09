@@ -1,0 +1,125 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: select_default_conversions_pass1 - ShippingLabel 2.0_to_Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/select_default_conversions_pass1.py",
+            "args": [
+                "input/ShippingLabel 2.0 to Shipment 7.7 - clean.xlsx",
+                "ShippingLabel 2.0",
+                "Shipment 7.7",
+                "--run_test"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: select_default_conversions_pass1 - ShippingLabel 3.0_to_Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/select_default_conversions_pass1.py",
+            "args": [
+                "input/ShippingLabel 3.0 to Shipment 7.7 - clean.xlsx",
+                "ShippingLabel 3.0",
+                "Shipment 7.7",
+                "--run_test"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: select_default_conversions_pass1 - PackingSlip 2.0_to_Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/select_default_conversions_pass1.py",
+            "args": [
+                "input/PackingSlip 2.0 to Shipment 7.7 - clean.xlsx",
+                "PackingSlip 2.0",
+                "Shipment 7.7",
+                "--run_test"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: select_group_default_conversions_pass2 - ShippingLabel 2.0_to_Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/select_group_default_conversions_pass2.py",
+            "args": [
+                "conversion_analysis/select_target_path_field_ambiguities_of_ShippingLabel 2.0_to_Shipment 7.7_conversion_pass1.xlsx",
+                "ShippingLabel 2.0",
+                "Shipment 7.7",
+                "--run_test"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: select_group_default_conversions_pass2 - ShippingLabel 3.0_to_Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/select_group_default_conversions_pass2.py",
+            "args": [
+                "conversion_analysis/select_target_path_field_ambiguities_of_ShippingLabel 3.0_to_Shipment 7.7_conversion_pass1.xlsx",
+                "ShippingLabel 3.0",
+                "Shipment 7.7",
+                "--run_test"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: select_group_default_conversions_pass2 - PackingSlip 2.0_to_Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/select_group_default_conversions_pass2.py",
+            "args": [
+                "conversion_analysis/select_target_path_field_ambiguities_of_PackingSlip 2.0_to_Shipment 7.7_conversion_pass1.xlsx",
+                "PackingSlip 2.0",
+                "Shipment 7.7",
+                "--run_test"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: generates_pria_conversion_maps - ShippingLabel 2.0 to Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/generates_pria_conversion_maps.py",
+            "args": [
+                "conversion_analysis/select_target_path_ambiguous_group_of_ShippingLabel 2.0_to_Shipment 7.7_conversion_pass2.xlsx",
+                "ShippingLabel 2.0",
+                "Shipment 7.7",
+                "--run_test",
+                "--generate_csv"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: generates_pria_conversion_maps - ShippingLabel 3.0 to Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/generates_pria_conversion_maps.py",
+            "args": [
+                "conversion_analysis/select_target_path_ambiguous_group_of_ShippingLabel 3.0_to_Shipment 7.7_conversion_pass2.xlsx",
+                "ShippingLabel 3.0",
+                "Shipment 7.7",
+                "--run_test",
+                "--generate_csv"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: generates_pria_conversion_maps - PackingSlip 2.0_to_Shipment 7.7",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/generates_pria_conversion_maps.py",
+            "args": [
+                "conversion_analysis/select_target_path_ambiguous_group_of_PackingSlip 2.0_to_Shipment 7.7_conversion_pass2.xlsx",
+                "PackingSlip 2.0",
+                "Shipment 7.7",
+                "--run_test",
+                "--generate_csv"
+            ],
+            "console": "integratedTerminal"
+        }        
+    ]
+}

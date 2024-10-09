@@ -1,0 +1,94 @@
+  <PackingMaterial sheet="PackingMaterial">
+    <restriction>
+      <enumeration value="01">
+        <annotation>
+          <documentation>Aluminium</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="03">
+        <annotation>
+          <documentation>Hard Wood</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="05">
+        <annotation>
+          <documentation>Soft Wood</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="25">
+        <annotation>
+          <documentation>Corrugated or Solid</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="31">
+        <annotation>
+          <documentation>Fibre</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="43">
+        <annotation>
+          <documentation>Glass</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="52">
+        <annotation>
+          <documentation>Iron or Steel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="58">
+        <annotation>
+          <documentation>Metal</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="67">
+        <annotation longDescription="Thicker cardboard often used to protect furniture">
+          <documentation>Multiple-wall Paper [2 or more walls]</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="72">
+        <annotation longDescription="Volatile corrosion inhibitor paper">
+          <documentation>VCI Paper</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="76">
+        <annotation>
+          <documentation>Paper</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="79">
+        <annotation>
+          <documentation>Plastic</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="80">
+        <annotation>
+          <documentation>Polyethylene</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="90">
+        <annotation>
+          <documentation>Standard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="91">
+        <annotation>
+          <documentation>Stainless Steel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="94">
+        <annotation>
+          <documentation>Wood</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EPP">
+        <annotation>
+          <documentation>Expanded Polypropylene (EPP)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UNDF">
+        <annotation longDescription="No additional information provided by trading partner" spsInternal="SPS INTERNAL: Convert General Merchandise 71">
+          <documentation>Undefined</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </PackingMaterial>

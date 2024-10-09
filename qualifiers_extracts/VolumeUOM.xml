@@ -1,0 +1,114 @@
+  <VolumeUOM sheet="VolumeUOM">
+    <restriction>
+      <enumeration value="4G">
+        <annotation>
+          <documentation>Microliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5I">
+        <annotation>
+          <documentation>Standard Cubic Foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BF">
+        <annotation>
+          <documentation>Board Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="C3">
+        <annotation>
+          <documentation>Centiliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="C8">
+        <annotation>
+          <documentation>Cubic Decimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CC">
+        <annotation>
+          <documentation>Cubic Centimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CF">
+        <annotation>
+          <documentation>Cubic Feet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CI">
+        <annotation>
+          <documentation>Cubic Inches</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CR">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: MTQ">
+          <documentation>Cubic Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CY">
+        <annotation>
+          <documentation>Cubic Yard</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DL">
+        <annotation>
+          <documentation>Deciliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FO">
+        <annotation>
+          <documentation>Fluid Ounce</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GA">
+        <annotation>
+          <documentation>Gallon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GH">
+        <annotation>
+          <documentation>Half Gallon</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="K6">
+        <annotation>
+          <documentation>Kiloliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KC">
+        <annotation>
+          <documentation>Kilograms per Cubic Meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LT">
+        <annotation>
+          <documentation>Liter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ML">
+        <annotation>
+          <documentation>Milliliter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NG">
+        <annotation>
+          <documentation>Net Gallons</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PT">
+        <annotation>
+          <documentation>Pint</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PV">
+        <annotation>
+          <documentation>Half Pint</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QT">
+        <annotation>
+          <documentation>Quart</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </VolumeUOM>

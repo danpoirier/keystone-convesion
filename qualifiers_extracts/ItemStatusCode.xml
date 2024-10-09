@@ -1,0 +1,134 @@
+  <ItemStatusCode>
+    <restriction>
+      <enumeration value="AA">
+        <annotation>
+          <documentation>Item Accepted - Order Forwarded to Alternate Supplier Location</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AC">
+        <annotation longDescription="Used to indicate the items have been packed and carrier confirmation or pickup has been completed">
+          <documentation>Item Accepted and Shipped</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AR">
+        <annotation longDescription="Used to indicate the items have been packed and is waiting for carrier confirmation or pickup">
+          <documentation>Item Accepted and Released for Shipment</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BP">
+        <annotation>
+          <documentation>Item Accepted - Partial Shipment, Balance Backordered</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CC">
+        <annotation longDescription="Used when a drop ship customer cancels an item on their order">
+          <documentation>Item Rejected - Customer Cancelled</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DR">
+        <annotation>
+          <documentation>Accept - Date Rescheduled</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IA">
+        <annotation>
+          <documentation>Accept</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IB">
+        <annotation>
+          <documentation>Backordered</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IC">
+        <annotation>
+          <documentation>Item Accepted - Changes Made</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ID">
+        <annotation longDescription="Used to indicate that the request for removal of an item on the Order Change has been completed">
+          <documentation>Item Deleted</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IE">
+        <annotation>
+          <documentation>Item Accepted - Price Pending</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IF">
+        <annotation>
+          <documentation>Item on Hold, Incomplete Description</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IH">
+        <annotation>
+          <documentation>On Hold</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IP">
+        <annotation>
+          <documentation>Accept - Price Changed</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IQ">
+        <annotation>
+          <documentation>Accept - Quantity Changed</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IR">
+        <annotation>
+          <documentation>Item Rejected</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IS">
+        <annotation>
+          <documentation>Accept - Substitution Made</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IW">
+        <annotation>
+          <documentation>Item on Hold - Waiver Required</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="R1">
+        <annotation>
+          <documentation>Item Rejected - Not a contract Item</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="R2">
+        <annotation>
+          <documentation>Item Rejected - Invalid Item Product Number</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="R3">
+        <annotation longDescription="Indicates a rejection when the unit of measure ordered is not used by the vendor">
+          <documentation>Item Rejected - Unit of Measure not Valid</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="R4">
+        <annotation>
+          <documentation>Item Rejected - Contract Item Not Available</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="R7">
+        <annotation>
+          <documentation>Item Rejected - Reorder Item as a Drop Shipment</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ROS">
+        <annotation>
+          <documentation>Item Rejected - Out of Stock</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SP">
+        <annotation>
+          <documentation>Item Accepted - Schedule Date Pending</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UM">
+        <annotation longDescription="Used to indicate a difference in the item's unit of measurement">
+          <documentation>Accept - Unit of Measure Change</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </ItemStatusCode>

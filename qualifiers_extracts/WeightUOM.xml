@@ -1,0 +1,94 @@
+  <WeightUOM sheet="WeightUOM">
+    <restriction>
+      <enumeration value="01">
+        <annotation>
+          <documentation>Actual Pounds</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="50">
+        <annotation>
+          <documentation>Actual Kilograms</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AF">
+        <annotation>
+          <documentation>Centigram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CD">
+        <annotation>
+          <documentation>Carat</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CW">
+        <annotation>
+          <documentation>Hundred Pounds</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DG">
+        <annotation>
+          <documentation>Decigram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GR">
+        <annotation>
+          <documentation>Gram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HK">
+        <annotation>
+          <documentation>Hundred Kilograms</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KG">
+        <annotation spsInternal="SPS INTERNAL: convert EDIFACT: KGM; convert Logistics: K">
+          <documentation>Kilogram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LB">
+        <annotation spsInternal="SPS INTERNAL: convert Grocery: PG; convert Logistics: L">
+          <documentation>Pound</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LG">
+        <annotation longDescription="Equal to 2240 pounds">
+          <documentation>Long Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MC">
+        <annotation>
+          <documentation>Microgram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ME">
+        <annotation>
+          <documentation>Milligram</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MP">
+        <annotation longDescription="Equal to 1000 kilograms">
+          <documentation>Metric Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NS">
+        <annotation longDescription="Equal to 2000 pounds">
+          <documentation>Short Ton</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="OZ">
+        <annotation spsInternal="SPS INTERNAL: convert Grocery: FO">
+          <documentation>Ounce Av</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QS">
+        <annotation>
+          <documentation>Quart - Dry</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TO">
+        <annotation spsInternal="SPS INTERNAL: Used to measure the weight of precious metals. One troy ounce is equal to 31.1034768 grams.">
+          <documentation>Troy Ounce</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </WeightUOM>

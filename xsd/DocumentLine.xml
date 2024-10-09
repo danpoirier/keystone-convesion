@@ -1,0 +1,13 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.spscommerce.com/RSX"
+	xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+	<xs:element name="DocumentLine">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LineSequenceNumber" type="xs:string" minOccurs="0">
+				</xs:element>
+				<xs:element name="ApplicationId" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

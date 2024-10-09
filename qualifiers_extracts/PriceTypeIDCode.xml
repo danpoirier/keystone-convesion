@@ -1,0 +1,129 @@
+  <PriceTypeIDCode sheet="PriceTypeIDCode">
+    <restriction>
+      <enumeration value="AAA">
+        <annotation longDescription="Final price, includes any discounts, fees or taxes" spsInternal="SPS INTERNAL: convert GeneralMerchandise: NET">
+          <documentation>Net Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AAB">
+        <annotation longDescription="Final price, not including any discounts fees or taxes">
+          <documentation>Gross Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AAE">
+        <annotation longDescription="Final price including taxes but excluding any discounts or fees">
+          <documentation>Unadjusted Net Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BLP">
+        <annotation longDescription="Price that is used as a starting point between two parties for the purposes of negotiations. This is what is expected to be paid if there are no further negotiations or discounts to be applied" spsInternal="SPS INTERNAL: Typically seen on item data or assortment/catalog documents">
+          <documentation>Baseline Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CAT">
+        <annotation longDescription="Price with discounts, shipping/handling and tax are included">
+          <documentation>Catalog Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CON">
+        <annotation longDescription="Price listed in a legally binding contract">
+          <documentation>Contract Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="D01">
+        <annotation longDescription="Health care pricing governed by the Federal Supply Schedule (FSS)">
+          <documentation>Federal Supply Schedule Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="DIS">
+        <annotation longDescription="Sale price being offered to customer by retailer" spsInternal="SPS INTERNAL: convert GeneralMerchandise: SPC">
+          <documentation>Discount Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ECP">
+        <annotation longDescription="Price charged to the end consumer">
+          <documentation>End Consumer Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ELC">
+        <annotation longDescription="The total cost of landed goods including purchase price, freight, insurance, and other costs up to the port of destination">
+          <documentation>Estimated Landing Cost</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EST">
+        <annotation longDescription="Price which is based on previous costs or an educated guess. This is different than a quoted price.">
+          <documentation>Estimated Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FCP">
+        <annotation longDescription="Also called Prime Cost. The price of goods that includes all direct costs [material, labor, freight, etc.] but excludes all indirect costs [such as the purchase of equipment]">
+          <documentation>First Cost Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MSR">
+        <annotation longDescription="Price the manufacturer suggests it to be sold at">
+          <documentation>Manufacturer's Suggested Retail Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PNP">
+        <annotation longDescription="Final price including adjustments but excluding any taxes">
+          <documentation>Pre-tax Net Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PRP">
+        <annotation longDescription="Price that is available for a limited time or in conjunction with other offers" spsInternal="SPS INTERNAL: convert GeneralMerchandise: RES">
+          <documentation>Promotional Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QTE">
+        <annotation longDescription="Price listed in a non-legally binding agreement, and may be subject to change">
+          <documentation>Quote Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RPA">
+        <annotation>
+          <documentation>Rental Price, Annually</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RPC">
+        <annotation longDescription="Price the retailer suggests it to be sold at">
+          <documentation>Retailer's Suggested Retail Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RPM">
+        <annotation>
+          <documentation>Rental Price, Monthly</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RTL">
+        <annotation longDescription="Price that is printed on the item" spsInternal="SPS INTERNAL: convert GeneralMerchandise: RES">
+          <documentation>Retail</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TIP">
+        <annotation longDescription="Qty * Price including AllowancesCharges" spsInternal="SPS INTERNAL: convert EDIFACT: 128,203">
+          <documentation>Total Line Item Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TNP">
+        <annotation longDescription="Line item Qty * Price including charges, allowances, and taxes">
+          <documentation>Total Net Line Item Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UCP">
+        <annotation longDescription="Price retailer pays vendor for goods">
+          <documentation>Unit Cost Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VPC">
+        <annotation longDescription="Price the vendor or supplier suggests it to be sold at">
+          <documentation>Vendor's Suggested Retail Price</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="WHL">
+        <annotation longDescription="Price supplier/produce sells to a retailer/buyer, generally less than List Price" spsInternal="SPS INTERNAL: convert GeneralMerchandise: SWP">
+          <documentation>Wholesale</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </PriceTypeIDCode>

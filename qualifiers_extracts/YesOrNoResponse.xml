@@ -1,0 +1,14 @@
+  <YesOrNoResponse>
+    <restriction>
+      <enumeration value="N">
+        <annotation>
+          <documentation>No</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Y">
+        <annotation>
+          <documentation>Yes</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </YesOrNoResponse>

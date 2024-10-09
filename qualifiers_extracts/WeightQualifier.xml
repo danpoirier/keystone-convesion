@@ -1,0 +1,44 @@
+  <WeightQualifier>
+    <restriction>
+      <enumeration value="B">
+        <annotation longDescription="Weight defined on the receipt or invoice, regardless of the physical product weight. Typically seen when the the size of package matters more than the weight">
+          <documentation>Billed Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EN">
+        <annotation>
+          <documentation>Estimated Net Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="F">
+        <annotation longDescription="Weight artificially added in order to decrease the cost">
+          <documentation>Deficit Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="G">
+        <annotation>
+          <documentation>Gross Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="L">
+        <annotation longDescription="Weight of the product plus its packaging, this does not include the shipping materials [such as container]">
+          <documentation>Legal Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="N">
+        <annotation>
+          <documentation>Actual Net Weight</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="P">
+        <annotation>
+          <documentation>Weight Per 100 Units</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="T">
+        <annotation longDescription="The weight of an empty logistical unit">
+          <documentation>Tare Weight</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </WeightQualifier>

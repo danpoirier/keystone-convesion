@@ -1,0 +1,235 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.spscommerce.com/RSX"
+    xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition" targetNamespace="http://www.spscommerce.com/RSX" elementFormDefault="qualified" attributeFormDefault="unqualified" version="7.7.0">
+    <xs:element name="OrderHeader">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="InternalOrderNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="InternalOrderNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=VN" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="InternalOrderNumber" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=IL" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="InternalOrderDate" type="xs:date" minOccurs="0">
+                    <xs:annotation/>
+                </xs:element>
+                <xs:element name="InvoiceNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="InvoiceNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=IK" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="InvoiceNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=IK" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="InvoiceNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=IK" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="InvoiceNumber" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=IV" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="InvoiceDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="InvoiceDate" referenceNum="373" segmentTag="DTM" position="02" subPos="" spsInternal="DTM01=003" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="InvoiceDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=03" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="InvoiceDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=03" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="InvoiceDate" referenceNum="2380" segmentTag="DTM" position="01" subPos="02" spsInternal="DTM01-01=3" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PurchaseOrderNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="PurchaseOrderNumber" referenceNum="324" segmentTag="PRF" position="01" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PurchaseOrderNumber" referenceNum="324" segmentTag="W06" position="06" subPos="" spsInternal="" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PurchaseOrderNumber" referenceNum="324" segmentTag="W06" position="06" subPos="" spsInternal="" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PurchaseOrderNumber" referenceNum="1154" segmentTag="RFF" position="02" subPos="" spsInternal="RFF01-01=ON" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ReleaseNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="ReleaseNumber" referenceNum="328" segmentTag="PRF" position="02" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ReleaseNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=RE" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ReleaseNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=RE" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="ReleaseNumber" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=RE" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="PurchaseOrderDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="PurchaseOrderDate" referenceNum="373" segmentTag="PRF" position="04" subPos="" spsInternal="" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PurchaseOrderDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=04/52" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PurchaseOrderDate" referenceNum="373" segmentTag="G62" position="02" subPos="" spsInternal="G6201=04/52" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="PurchaseOrderDate" referenceNum="2380" segmentTag="DTM" position="01" subPos="02" spsInternal="DTM01-01=4/8" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Department" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Department" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=DP" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Department" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=DP" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Department" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=DP" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Department" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=SD" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="DepartmentDescription" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="DepartmentDescription" referenceNum="352" segmentTag="REF" position="03" subPos="" spsInternal="REF01=DP" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="DepartmentDescription" referenceNum="369" segmentTag="N9" position="03" subPos="" spsInternal="N901=DP" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="DepartmentDescription" referenceNum="369" segmentTag="N9" position="03" subPos="" spsInternal="N901=DP" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Vendor" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Vendor" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=IA/VR" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Vendor" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=IA/VR" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Vendor" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=IA/VR" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Vendor" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=IA" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="JobNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="JobNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=JB" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="JobNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=JB" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="JobNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=JB" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="JobNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=JR" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="JobNumber" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=JR" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Division" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="Division" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=19" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Division" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=19" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="Division" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=19" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="CustomerAccountNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="CustomerAccountNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=11" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CustomerAccountNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=11" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CustomerAccountNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=11" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CustomerAccountNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=11" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CustomerAccountNumber" referenceNum="1154" segmentTag="RFF" position="01" subPos="02" spsInternal="RFF01-01=ADE" type="DESADV"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="CustomerOrderNumber" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="CustomerOrderNumber" referenceNum="127" segmentTag="REF" position="02" subPos="" spsInternal="REF01=CO" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CustomerOrderNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=CO" type="943"
+                                    xmlns="">FEDS</spsxs:type>
+                                <spsxs:type level="CustomerOrderNumber" referenceNum="127" segmentTag="N9" position="02" subPos="" spsInternal="N901=CO" type="945"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="DeliveryDate" type="xs:date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="OrderHeader/DeliveryDate" referenceNum="373" segmentTag="DTM" position="02" subPos="" spsInternal="DTM01=002" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="DeliveryTime" type="xs:time" minOccurs="0">
+                    <xs:annotation>
+                        <xs:appinfo>
+                            <spsxs:ERP>
+                                <spsxs:type level="OrderHeader/DeliveryTime" referenceNum="337" segmentTag="DTM" position="03" subPos="" spsInternal="DTM01=002" type="856"
+                                    xmlns="">FEDS</spsxs:type>
+                            </spsxs:ERP>
+                        </xs:appinfo>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>                        
